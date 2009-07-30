@@ -25,7 +25,9 @@ Uses rspec and fakeweb
 
 Usage Examples:
 ---------------
-    TflTubeStations::feed_url = "http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=registered@example.com&feedId=4"
+    require 'tfl_tube_stations'
+    
+    TflTubeStations::feed_url = "http://www.tfl.gov.uk/feed_url" # provided by TFL
 
     stations = TflTubeStations.get_stations
 

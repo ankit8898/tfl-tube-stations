@@ -18,18 +18,18 @@ gem install x
 
 Usage Examples:
 ---------------
-TflTubeStations::feed_url = "http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=registered@example.com&feedId=4"
+    TflTubeStations::feed_url = "http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=registered@example.com&feedId=4"
 
-stations = TflTubeStations.get_stations
+    stations = TflTubeStations.get_stations
 
-stations.each do |station|
-  puts "#{station.name} #{station.address} #{station.coordinates}"
-  station.entrances.each do |e|
-    puts "#{e.name} #{e.entry_to_bookinghall}"
-    puts "#{e.booking_hall_to_platforms.inspect}"
-    puts "#{e.platform_to_trains.inspect}"
-  end
-end
+    stations.each do |station|
+      puts "#{station.name} #{station.address} #{station.coordinates}"
+      station.entrances.each do |e|
+        puts "#{e.name} #{e.entry_to_bookinghall}"
+        puts "#{e.booking_hall_to_platforms.inspect}"
+        puts "#{e.platform_to_trains.inspect}"
+      end
+    end
 
 
 TODO:

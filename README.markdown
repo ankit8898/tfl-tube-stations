@@ -26,8 +26,8 @@ stations.each do |station|
   puts "#{station.name} #{station.address} #{station.coordinates}"
   station.entrances.each do |e|
     puts "#{e.name} #{e.entry_to_bookinghall}"
-    # description t
-    e.booking_hall_to_platforms
+    puts "#{e.booking_hall_to_platforms.inspect}"
+    puts "#{e.platform_to_trains.inspect}"
   end
 end
 

@@ -25,7 +25,8 @@ Gem::Specification.new do |s|
      "spec/spec.opts",
      "spec/spec_helper.rb",
      "spec/tfl_tube_stations_spec.rb",
-     "tasks/rspec.rake"
+     "tasks/rspec.rake",
+     "tfl-tube-stations.gemspec"
   ]
   s.homepage = %q{http://github.com/kalv/tfl-tube-stations}
   s.rdoc_options = ["--charset=UTF-8"]

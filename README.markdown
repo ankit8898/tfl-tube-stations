@@ -16,6 +16,11 @@ Installing
 
 gem install x
 
+Testing
+-------
+Uses rspec and fakeweb
+    rake spec
+
 Usage Examples:
 ---------------
     TflTubeStations::feed_url = "http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=registered@example.com&feedId=4"

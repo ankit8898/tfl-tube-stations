@@ -13,8 +13,10 @@ Currently this is beta and is being worked on, has rspec tests for everything wr
   
 Installing
 ----------
-
-gem install x
+If you haven't already:
+    gem sources -a http://gems.github.com 
+Then:
+    sudo gem install kalv-tfl-tube-stations
 
 Testing
 -------

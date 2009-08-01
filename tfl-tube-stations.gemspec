@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{tfl-tube-stations}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kalvir Sandhu"]
-  s.date = %q{2009-07-30}
+  s.date = %q{2009-08-01}
   s.description = %q{A gem to easily connect to the TFL feed of Tube locations and parse the response}
   s.email = %q{kalv@kalv.co.uk}
   s.extra_rdoc_files = [

@@ -24,10 +24,10 @@ module TflTubeStations
   end
 end
 
-TflTubeStations::feed_url = "http://www.tfl.gov.uk/tfl/businessandpartners/syndication/feed.aspx?email=kalv@kalv.co.uk&feedId=4"
+#TflTubeStations::feed_url = "http://feed/url"
 
-stations = TflTubeStations.get_stations
+#stations = TflTubeStations.get_stations
 
-stations.each do |station|
-  puts "#{station.name} #{station.address}"
-end
+#stations.each do |station|
+#  puts "#{station.name} #{station.address}"
+#end
